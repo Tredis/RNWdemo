@@ -12,15 +12,19 @@ React-datetime is a UI widget which allows a user to pick from a calendar and se
 
 Problems:
 
-* xxx
-* yyy
+* calendar locked in dropped state
+* numbers outside of current month are not grayed
+* single digit numbers are represented with 2 digits
+* cells do not highlight on mouseover
+* time choosers are not aligned
+* much of the styling is lost
  
 
 ### Library 2: [react-dropdown](https://github.com/fraserxu/react-dropdown)
 React-dropdown is a drop down UI widget. [Fully working demo](http://fraserxu.me/react-dropdown/). This widget is not even showing up in the demo project.
 
 ### Library 3: [input-moment](https://github.com/wangzuo/input-moment)
-[Fully working demo](http://wangzuo.github.io/input-moment/). This component is currently commented out in line XX or file YY. Remove the comment to observe the error.
+[Fully working demo](http://wangzuo.github.io/input-moment/). This component is currently commented out at line 21 or file source/components/App/index.js. Remove the comment to observe the error.
 
 ### Library 4: [react-datetime-calendar](https://github.com/deepreact/react-datetime-calendar)
 react-datetime-calendar errors out, but can be fixed by changing "file" to "file-loader" in node_modules, at the top of lib/DateTimePicker.js but once it displays, it has similar visual issues as react-datetime.
