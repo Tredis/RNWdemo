@@ -32,13 +32,19 @@ react-datetime-calendar errors out, but can be fixed by changing "file" to "file
 Given the errors, I believe that I may be doing something wrong with babel/webpack. I just don't know what.
 
 ## Screenshots
+Expected react-datetime componant:
 Calendar tab                                                                       |  Time tab
 :---------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:
 ![Alt text](/source/screenshots/expectedCal.png?raw=true "Expected calendar tab")  |  ![Alt text](/source/screenshots/expectedTime.png?raw=true "Expected time tab")
 
-![Alt text](/source/screenshots/actualCal.png?raw=true "Actual calendar tab") ![Alt text](/source/screenshots/actualTime.png?raw=true "Actual time tab")
+Actual react-datetime componant:
+Calendar tab                                                                       |  Time tab
+:---------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:
+![Alt text](/source/screenshots/actualCal.png?raw=true "Actual calendar tab")      |  ![Alt text](/source/screenshots/actualTime.png?raw=true "Actual time tab")
 
-![Alt text](/source/screenshots/RDCexpected.png?raw=true "Expected react-datetime-calendar") ![Alt text](/source/screenshots/RDCactual.png?raw=true "Actual react-datetime-calendar")
+Expected react-datetime-calendar component                                                  |  Actual react-datetime-calendar component
+:------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------:
+![Alt text](/source/screenshots/RDCexpected.png?raw=true "Expected react-datetime-calendar")|![Alt text](/source/screenshots/RDCactual.png?raw=true "Actual react-datetime-calendar")
 
 
 
