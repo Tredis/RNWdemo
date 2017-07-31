@@ -18,20 +18,6 @@ Problems:
 * time choosers are not aligned
 * much of the styling is lost
  
-
-### Library 2: [react-dropdown](https://github.com/fraserxu/react-dropdown)
-React-dropdown is a drop down UI widget. [Fully working demo](http://fraserxu.me/react-dropdown/). This widget is not even showing up in the demo project.
-
-### Library 3: [input-moment](https://github.com/wangzuo/input-moment)
-[Fully working demo](http://wangzuo.github.io/input-moment/). This component is currently commented out at line 21 or file source/components/App/index.js. Remove the comment to observe the error.
-
-### Library 4: [react-datetime-calendar](https://github.com/deepreact/react-datetime-calendar)
-react-datetime-calendar errors out, but can be fixed by changing "file" to "file-loader" in node_modules, at the top of lib/DateTimePicker.js but once it displays, it has similar visual issues as react-datetime.
-
-## Conclusion
-Given the errors, I believe that I may be doing something wrong with babel/webpack. I just don't know what.
-
-## Screenshots
 Expected react-datetime componant:
 
 Calendar tab                                                                       |  Time tab
@@ -44,10 +30,19 @@ Calendar tab                                                                    
 :---------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:
 ![Alt text](/source/screenshots/actualCal.png?raw=true "Actual calendar tab")      |  ![Alt text](/source/screenshots/actualTime.png?raw=true "Actual time tab")
 
+### Library 2: [react-dropdown](https://github.com/fraserxu/react-dropdown)
+React-dropdown is a drop down UI widget. [Fully working demo](http://fraserxu.me/react-dropdown/). This widget is not even showing up in the demo project.
+
+### Library 3: [input-moment](https://github.com/wangzuo/input-moment)
+[Fully working demo](http://wangzuo.github.io/input-moment/). This component is currently commented out at line 21 or file source/components/App/index.js. Remove the comment to observe the error.
+
+### Library 4: [react-datetime-calendar](https://github.com/deepreact/react-datetime-calendar)
+react-datetime-calendar errors out, but can be fixed by changing "file" to "file-loader" in node_modules, at the top of lib/DateTimePicker.js but once it displays, it has similar visual issues as react-datetime.
+
 Expected react-datetime-calendar component                                                  |  Actual react-datetime-calendar component
 :------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------:
 ![Alt text](/source/screenshots/RDCexpected.png?raw=true "Expected react-datetime-calendar")|![Alt text](/source/screenshots/RDCactual.png?raw=true "Actual react-datetime-calendar")
 
-
-
+## Conclusion
+Given the errors, I believe that we may be doing something wrong with babel/webpack. I just don't know what.
 
