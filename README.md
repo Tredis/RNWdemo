@@ -33,11 +33,13 @@ Given the errors, I believe that I may be doing something wrong with babel/webpa
 
 ## Screenshots
 Expected react-datetime componant:
+
 Calendar tab                                                                       |  Time tab
 :---------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:
 ![Alt text](/source/screenshots/expectedCal.png?raw=true "Expected calendar tab")  |  ![Alt text](/source/screenshots/expectedTime.png?raw=true "Expected time tab")
 
 Actual react-datetime componant:
+
 Calendar tab                                                                       |  Time tab
 :---------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:
 ![Alt text](/source/screenshots/actualCal.png?raw=true "Actual calendar tab")      |  ![Alt text](/source/screenshots/actualTime.png?raw=true "Actual time tab")
