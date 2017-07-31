@@ -1,15 +1,34 @@
-# Demo
+# React-Native-Web broken React components demo
+
+## How to run
+```$ yarn```
 
 ```$ npm run web``` to start
+## Purpose of this demo
+This demo project attempts to use 4 react libraries in a react-native-web application. Each library does not work as expected. This demo highlights the difference between expected and actual behavior.
 
-Compare 'react-datetime' to: https://codepen.io/simeg/pen/mEmQmP
+### Library 1: [react-datetime](https://github.com/YouCanBookMe/react-datetime)
+React-datetime is a UI widget which allows a user to pick from a calendar and set a time of day. This is the widget you will see when you run the demo, and you will notice several features are broken compared to when this widget is running without react-native-web. See [this codepen](https://codepen.io/simeg/pen/mEmQmP) for a fully working demo.
 
-Simple 'react-dropdown' not even showing up: http://fraserxu.me/react-dropdown/
+Problems:
 
-'input-moment' errors out(uncomment to see the error): http://wangzuo.github.io/input-moment/
+* xxx
+* yyy
+ 
 
-'react-datetime-calendar' errors out, but can be fixed by changing "file" to "file-loader" in node_modules, at the top of lib/DateTimePicker.js but once it displays, it has similar issues as react-datetime. Ex: https://github.com/deepreact/react-datetime-calendar
+### Library 2: [react-dropdown](https://github.com/fraserxu/react-dropdown)
+React-dropdown is a drop down UI widget. [Fully working demo](http://fraserxu.me/react-dropdown/). This widget is not even showing up in the demo project.
 
-This leads me to believe I may be doing something wrong with babel/webpack. I just don't know what.
+### Library 3: [input-moment](https://github.com/wangzuo/input-moment)
+[Fully working demo](http://wangzuo.github.io/input-moment/). This component is currently commented out in line XX or file YY. Remove the comment to observe the error.
+
+### Library 4: [react-datetime-calendar](https://github.com/deepreact/react-datetime-calendar)
+react-datetime-calendar errors out, but can be fixed by changing "file" to "file-loader" in node_modules, at the top of lib/DateTimePicker.js but once it displays, it has similar visual issues as react-datetime.
+
+## Conclusion
+Given the errors, I believe that I may be doing something wrong with babel/webpack. I just don't know what.
+
+
+
 
 
