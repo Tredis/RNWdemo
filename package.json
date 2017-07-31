@@ -1,0 +1,37 @@
+{
+	"name": "AwesomeProject",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"web": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+		"clean": "watchman watch-del-all && rm -rf $TMPDIR/react-*",
+		"test": "jest"
+	},
+	"dependencies": {
+		"babel-loader": "7.1.1",
+		"babel-polyfill": "6.23.0",
+		"babel-preset-env": "1.6.0",
+		"file-loader": "0.11.2",
+		"input-moment": "^0.3.4",
+		"moment": "^2.18.1",
+		"react": "15.6.1",
+		"react-datetime": "^2.9.0",
+		"react-datetime-calendar": "0.2.1",
+		"react-dom": "15.6.1",
+		"react-dropdown": "^1.2.5",
+		"react-native": "0.46.2",
+		"react-native-web": "0.0.112"
+	},
+	"devDependencies": {
+		"babel-jest": "20.0.3",
+		"babel-preset-react-native": "2.0.0",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.12",
+		"webpack": "3.2.0",
+		"webpack-dev-server": "2.5.1"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
