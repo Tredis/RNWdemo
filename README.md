@@ -3,7 +3,7 @@
 ## How to run
 ```$ yarn```
 
-```$ npm run web``` to start
+```$ npm run web```
 ## Purpose of this demo
 This demo project attempts to use 2 react libraries in a react-native-web application. This demo highlights the difference between expected and actual behavior.
 
