@@ -12,12 +12,8 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: [
-                    /node_modules\/react-datetime/,
+                    /node_modules_gitsync/,
                     /node_modules\/react-dropdown/,
-                    /node_modules\/input-moment/,
-                    /node_modules\/react-input-slider/,
-                    /node_modules\/moment/,
-                    /node_modules\/react-datetime-calendar/,
                     /node_modules\/react-native-web/
                 ],
                 include: [/node_modules/, /source/],

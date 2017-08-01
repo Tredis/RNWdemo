@@ -2,28 +2,25 @@ import React, {Component} from 'react';
 import {
   StatusBar,
   View,
+  StyleSheet,
 } from 'react-native';
-import Datetime from 'react-datetime';
 import Dropdown from 'react-dropdown'
-import InputMoment from 'input-moment'
-//import DateTimePicker from 'react-datetime-calendar';
-
+import DateTimePicker from '../../../node_modules_gitsync/react-datetime-calendar';
 
 export default class App extends Component {
 
    render() {
       return (
          <View>
-            <Datetime/>
-
-            {/*<DateTimePicker theme='window'/>*/}
-
-            {/*<InputMoment/>*/}
-
+            react-dropdown component example:
             <Dropdown 
                options={['one', 'two', 'three']} 
                value={['one', 'two', 'three']} 
-               placeholder="Select an option" />
+               placeholder="Select an option"
+            />
+            <br/>
+            react-datetime-calendar component example:
+            <DateTimePicker theme='window'/>
          </View>
       );
    }
